@@ -1,0 +1,25 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pizzaContainer {
+    background-color: #A5A5A5;
+    max-width: fit-content;
+    border-radius: 20px;
+}
+
+#pizzaContainer img{
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pizzaContainer h2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#pizzaContainer p {
+    padding: 20px;
+}
