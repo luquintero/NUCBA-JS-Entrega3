@@ -91,10 +91,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <p>Precio: $${foundPizza.precio}</p>
       `;
       pizzaContainer.appendChild(pizzaCard);
-    } else {
-      pizzaContainer.innerHTML = '<p>No se encontró ninguna pizza guardada.</p>';
-    }
-  } else {
-    pizzaContainer.innerHTML = '<p>No hay pizza guardada en localStorage.</p>';
+
+      localStorage.setItem('lastPizzaId', numInputNumber);
+
+    } 
   }
 });
